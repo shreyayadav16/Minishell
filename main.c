@@ -1,0 +1,34 @@
+/*
+ * Name - Shreya yadav(25028_049)
+ * Date - 29/04/2026
+ * Project(Linux Internal) :- MiniShell
+ */
+
+/*
+ * Description : 
+ * This project is a mini shell program written in C, which works similar
+ * to a basic Linux terminal. The main aim of this project is to understand
+ * how commands are executed inside a system.
+ */
+
+
+#include "header.h"
+
+// Initializing the shell prompt string
+char prompt[MAX_PROMPT_LEN] = "MiniShell$";
+
+// Buffer to store user input command
+char input_string[MAX_INPUT_LEN];
+
+int main()
+{
+    // Clearing the terminal screen before starting the shell
+    system("clear");
+
+    // Calling the scan_input function to start shell execution
+    // This function continuously displays the prompt and processes user commands
+    scan_input(prompt, input_string);
+
+    // Returning control to the operating system
+    return 0;
+}

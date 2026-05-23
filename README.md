@@ -86,9 +86,9 @@ PS1=MiniShell
 
 ## 👤 Author
 
-**Shreya Yadav**
-Embedded Systems Trainee
-Linux & Embedded Systems Enthusiast
+## Shreya Yadav**
+### Embedded Systems Trainee
+### Linux & Embedded Systems Enthusiast
 
 ---
 

@@ -1,5 +1,7 @@
 # 🐚 MiniShell — Linux Command Line Interpreter in C
-
+![Language](https://img.shields.io/badge/Language-C-blue.svg) 
+![Platform](https://img.shields.io/badge/Platform-Linux-green.svg) 
+![Build](https://img.shields.io/badge/Build-GCC-orange.svg)
 MiniShell is a custom command-line interpreter developed in C to explore core Linux system programming concepts such as process handling, signal management, pipes, and job control.
 
 The project focuses on understanding how Unix-based shells work internally using POSIX system calls and process-oriented programming.
